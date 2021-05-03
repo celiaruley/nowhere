@@ -1,0 +1,44 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+  background:#D0C48D;
+  font-family: monospace;
+  font-size:20px;
+}
+
+img{
+  max-width:100%;
+  max-height:100%;
+}
+
+a {
+  color:black;
+
+}
+
+.frame {
+  width:100%;
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-content: center;
+  align-items: center;
+}
+
+.image {
+  height:75%;
+}
+
+.story {
+  max-width:600px;
+  text-align:center;
+}
+
+.options{
+  flex-shrink:0;
+  height:100%;
+}
